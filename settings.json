@@ -1,0 +1,115 @@
+{
+    // editor
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onWindowChange",
+    "editor.tokenColorCustomizations": {
+    //   "comments": "#6A9955",
+    //   "keywords": "#569CD6",  // Blue for keywords (like def, class, etc.)
+    //   "functions": "#DCDCAA", // Soft yellow for function names
+    //   "strings": "#CE9178",   // Soft red for string literals
+    //   "numbers": "#B5CEA8",   // Light green for numbers
+    //   "types": "#4EC9B0",     // Teal for class names and types
+    //   "variables": "#9CDCFE", // Sky blue for variables
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    },
+    // cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    // config related to code formatting
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+      //terminal
+      "terminal.integrated.fontSize": 17,
+      "terminal.integrated.fontWeight": "bold",
+      "terminal.integrated.fontFamily": "Fira Code",
+      "workbench.colorTheme": "Andromeda Colorizer",
+      "workbench.iconTheme": "material-icon-theme",
+    
+    // color customization
+    "workbench.colorCustomizations": {
+      "editor.background": "#1C2333",
+      "editorGroupHeader.tabsBackground": "#1C2333",
+      "editorGroupHeader.tabsBorder":"#0E1525",
+      "editor.lineHighlightBorder":"#1C2333",
+      "editor.lineHighlightBackground": "#242A3C",
+      "editor.selectionBackground": "#3B4252",  
+      "editorCursor.foreground": "#F0A500",
+
+      //activityBar
+      "activityBar.background": "#0E1525",
+      "activityBar.foreground": "#ff4d4d",
+      "activityBar.activeBackground": "#0E1525",
+      "activityBar.activeBorder":"#ff4d4d",
+      "activityBar.inactiveForeground":"#a5a4a4",
+      "activityBar.border":"#1C2333",
+
+      //sideBar
+      "sideBar.background": "#0E1525",
+      "sideBarSectionHeader.background": "#0E1525",
+
+      //Background
+      "minimap.background": "#141422",
+      "tab.activeBackground": "#1C2333",
+      "tab.activeForeground": "#ff4d4d",
+      "tab.inactiveBackground": "#1C2333",
+      "tab.inactiveForeground":"#ddd",
+      
+      //statusBar
+      "statusBar.background": "#0D1117",
+
+      //titleBar
+      "titleBar.activeBackground": "#0D1117",
+      "titleBar.activeForeground": "#ddd",
+      "titleBar.inactiveBackground": "#0E1525",  
+      "titleBar.inactiveForeground": "#6A737D",
+
+      //scrollBar
+      "scrollbarSlider.background": "#151B23",
+      "scrollbarSlider.hoverBackground": "#0D1117",
+
+      //terminal customization
+      "terminal.border": "#2c2c54",
+      "terminal.foreground":"#E7F9EF",
+      "terminalCursor.background": "#151B23",
+      "terminalCursor.foreground": "#ff4d4d",
+      "terminal.ansiBlack": "#1D2021",
+      "terminal.ansiBlue": "#0D6678",
+      "terminal.ansiBrightBlack": "#665C54",
+      "terminal.ansiBrightBlue": "#0D6678",
+      "terminal.ansiBrightCyan": "#8BA59B",
+      "terminal.ansiBrightGreen": "#95C085",
+      "terminal.ansiBrightMagenta": "#8F4673",
+      "terminal.ansiBrightRed": "#FB543F",
+      "terminal.ansiBrightWhite": "#FDF4C1",
+      "terminal.ansiBrightYellow": "#FAC03B",
+      "terminal.ansiCyan": "#8BA59B",
+      "terminal.ansiGreen": "#95C085",
+      "terminal.ansiMagenta": "#8F4673",
+      "terminal.ansiRed": "#FB543F",
+      "terminal.ansiWhite": "#A89984",
+      "terminal.ansiYellow": "#FAC03B",
+
+      //Panel title
+      "panelTitle.activeForeground": "#ff4d4d",
+      "panelTitle.inactiveForeground":"#ddd", 
+      "panel.background": "#1C2333", 
+      "panel.border": "#0E1525",
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "tabnine.experimentalAutoImports": true
+  }
