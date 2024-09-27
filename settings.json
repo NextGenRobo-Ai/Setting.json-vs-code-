@@ -7,13 +7,13 @@
     "editor.minimap.enabled": false,
     "files.autoSave": "onWindowChange",
     "editor.tokenColorCustomizations": {
-    //   "comments": "#6A9955",
-    //   "keywords": "#569CD6",  // Blue for keywords (like def, class, etc.)
-    //   "functions": "#DCDCAA", // Soft yellow for function names
-    //   "strings": "#CE9178",   // Soft red for string literals
-    //   "numbers": "#B5CEA8",   // Light green for numbers
-    //   "types": "#4EC9B0",     // Teal for class names and types
-    //   "variables": "#9CDCFE", // Sky blue for variables
+      "comments": "#6A9955",
+      // "variables": "#0496ff",
+      // "types": "#f7b267", 
+      "keywords": "#9b5de5",
+      "functions": "#f4a261", 
+      "strings": "#df8595", 
+      "numbers": "#ff4d6d",
       "textMateRules": [
         {
           "scope": "comment",
@@ -36,45 +36,51 @@
       "terminal.integrated.fontSize": 17,
       "terminal.integrated.fontWeight": "bold",
       "terminal.integrated.fontFamily": "Fira Code",
-      "workbench.colorTheme": "Andromeda Colorizer",
       "workbench.iconTheme": "material-icon-theme",
     
     // color customization
     "workbench.colorCustomizations": {
-      "editor.background": "#1C2333",
-      "editorGroupHeader.tabsBackground": "#1C2333",
-      "editorGroupHeader.tabsBorder":"#0E1525",
-      "editor.lineHighlightBorder":"#1C2333",
-      "editor.lineHighlightBackground": "#242A3C",
+      "editorBracketHighlight.foreground1":"#deaaff",
+      "editorBracketHighlight.foreground2":"#179fff",
+      "editorBracketHighlight.foreground3":"#f4acb7",
+      "editorBracketHighlight.foreground4":"#f4a261",
+      //create a logical operator customizations
+      "editor.background": "#1F2232",
+      "editorGroupHeader.tabsBackground": "#1F2232",
+      "editorGroupHeader.tabsBorder":"#1B1E29",
+      "editor.lineHighlightBorder":"#1F2232",
+      // "editor.lineHighlightBackground": "#23293a",
       "editor.selectionBackground": "#3B4252",  
       "editorCursor.foreground": "#F0A500",
 
       //activityBar
-      "activityBar.background": "#0E1525",
-      "activityBar.foreground": "#ff4d4d",
-      "activityBar.activeBackground": "#0E1525",
-      "activityBar.activeBorder":"#ff4d4d",
+      "activityBar.background": "#1B1E29",
+      "activityBar.foreground": "#06ebcc",
+      "activityBar.activeBackground": "#1B1E29",
+      "activityBar.activeBorder":"#06ebcc",
       "activityBar.inactiveForeground":"#a5a4a4",
-      "activityBar.border":"#1C2333",
+      "activityBar.border":"#131927",
 
       //sideBar
-      "sideBar.background": "#0E1525",
-      "sideBarSectionHeader.background": "#0E1525",
+      "sideBar.background": "#1B1E29",
+      "sideBarSectionHeader.background": "#1B1E29",
 
       //Background
       "minimap.background": "#141422",
-      "tab.activeBackground": "#1C2333",
-      "tab.activeForeground": "#ff4d4d",
-      "tab.inactiveBackground": "#1C2333",
+      "tab.activeBackground": "#1F2232",
+      "tab.activeForeground": "#06ebcc",
+      "tab.inactiveBackground": "#1F2232",
       "tab.inactiveForeground":"#ddd",
+    
       
       //statusBar
-      "statusBar.background": "#0D1117",
+      "statusBar.background": "#0d1b2a",
+      "statusBar.foreground": "#ddd",
 
       //titleBar
-      "titleBar.activeBackground": "#0D1117",
+      "titleBar.activeBackground": "#0d1b2a",
       "titleBar.activeForeground": "#ddd",
-      "titleBar.inactiveBackground": "#0E1525",  
+      "titleBar.inactiveBackground": "#250E15",  
       "titleBar.inactiveForeground": "#6A737D",
 
       //scrollBar
@@ -104,7 +110,7 @@
       "terminal.ansiYellow": "#FAC03B",
 
       //Panel title
-      "panelTitle.activeForeground": "#ff4d4d",
+      "panelTitle.activeForeground": "#06ebcc",
       "panelTitle.inactiveForeground":"#ddd", 
       "panel.background": "#1C2333", 
       "panel.border": "#0E1525",
@@ -112,4 +118,4 @@
     "code-runner.clearPreviousOutput": true,
     "code-runner.showExecutionMessage": false,
     "tabnine.experimentalAutoImports": true
-  }
+}
