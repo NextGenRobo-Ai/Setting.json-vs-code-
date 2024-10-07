@@ -1,121 +1,117 @@
 {
-    // editor
-    "editor.fontSize": 20,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.wordWrap": "on",
-    "editor.minimap.enabled": false,
-    "files.autoSave": "onWindowChange",
-    "editor.tokenColorCustomizations": {
-      "comments": "#6A9955",
-      // "variables": "#0496ff",
-      // "types": "#f7b267", 
-      "keywords": "#9b5de5",
-      "functions": "#f4a261", 
-      "strings": "#df8595", 
-      "numbers": "#ff4d6d",
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic"
-          }
+  // editor
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onWindowChange",
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A9955",
+    // "variables": "#0496ff",
+    // "types": "#f7b267", 
+    "keywords": "#9b5de5",
+    "functions": "#f4a261",
+    "strings": "#df8595",
+    "numbers": "#ff4d6d",
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
         }
-      ]
-    },
-    // cursor
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    // config related to code formatting
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[python]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-      //terminal
-      "terminal.integrated.fontSize": 17,
-      "terminal.integrated.fontWeight": "bold",
-      "terminal.integrated.fontFamily": "Fira Code",
-      "workbench.iconTheme": "material-icon-theme",
-    
-    // color customization
-    "workbench.colorCustomizations": {
-      "editorBracketHighlight.foreground1":"#deaaff",
-      "editorBracketHighlight.foreground2":"#179fff",
-      "editorBracketHighlight.foreground3":"#f4acb7",
-      "editorBracketHighlight.foreground4":"#f4a261",
-      //create a logical operator customizations
-      "editor.background": "#1F2232",
-      "editorGroupHeader.tabsBackground": "#1F2232",
-      "editorGroupHeader.tabsBorder":"#1B1E29",
-      "editor.lineHighlightBorder":"#1F2232",
-      // "editor.lineHighlightBackground": "#23293a",
-      "editor.selectionBackground": "#3B4252",  
-      "editorCursor.foreground": "#F0A500",
-
-      //activityBar
-      "activityBar.background": "#1B1E29",
-      "activityBar.foreground": "#06ebcc",
-      "activityBar.activeBackground": "#1B1E29",
-      "activityBar.activeBorder":"#06ebcc",
-      "activityBar.inactiveForeground":"#a5a4a4",
-      "activityBar.border":"#131927",
-
-      //sideBar
-      "sideBar.background": "#1B1E29",
-      "sideBarSectionHeader.background": "#1B1E29",
-
-      //Background
-      "minimap.background": "#141422",
-      "tab.activeBackground": "#1F2232",
-      "tab.activeForeground": "#06ebcc",
-      "tab.inactiveBackground": "#1F2232",
-      "tab.inactiveForeground":"#ddd",
-    
-      
-      //statusBar
-      "statusBar.background": "#0d1b2a",
-      "statusBar.foreground": "#ddd",
-
-      //titleBar
-      "titleBar.activeBackground": "#0d1b2a",
-      "titleBar.activeForeground": "#ddd",
-      "titleBar.inactiveBackground": "#250E15",  
-      "titleBar.inactiveForeground": "#6A737D",
-
-      //scrollBar
-      "scrollbarSlider.background": "#151B23",
-      "scrollbarSlider.hoverBackground": "#0D1117",
-
-      //terminal customization
-      "terminal.border": "#2c2c54",
-      "terminal.foreground":"#E7F9EF",
-      "terminalCursor.background": "#151B23",
-      "terminalCursor.foreground": "#ff4d4d",
-      "terminal.ansiBlack": "#1D2021",
-      "terminal.ansiBlue": "#0D6678",
-      "terminal.ansiBrightBlack": "#665C54",
-      "terminal.ansiBrightBlue": "#0D6678",
-      "terminal.ansiBrightCyan": "#8BA59B",
-      "terminal.ansiBrightGreen": "#95C085",
-      "terminal.ansiBrightMagenta": "#8F4673",
-      "terminal.ansiBrightRed": "#FB543F",
-      "terminal.ansiBrightWhite": "#FDF4C1",
-      "terminal.ansiBrightYellow": "#FAC03B",
-      "terminal.ansiCyan": "#8BA59B",
-      "terminal.ansiGreen": "#95C085",
-      "terminal.ansiMagenta": "#8F4673",
-      "terminal.ansiRed": "#FB543F",
-      "terminal.ansiWhite": "#A89984",
-      "terminal.ansiYellow": "#FAC03B",
-
-      //Panel title
-      "panelTitle.activeForeground": "#06ebcc",
-      "panelTitle.inactiveForeground":"#ddd", 
-      "panel.background": "#1C2333", 
-      "panel.border": "#0E1525",
-    },
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false,
-    "tabnine.experimentalAutoImports": true
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  //terminal
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "workbench.iconTheme": "material-icon-theme",
+  // color customization
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#deaaff",
+    "editorBracketHighlight.foreground2": "#179fff",
+    "editorBracketHighlight.foreground3": "#f4acb7",
+    "editorBracketHighlight.foreground4": "#f4a261",
+    //create a logical operator customizations
+    "editor.background": "#1F2232",
+    "editorGroupHeader.tabsBackground": "#1F2232",
+    "editorGroupHeader.tabsBorder": "#1B1E29",
+    "editor.lineHighlightBorder": "#1F2232",
+    // "editor.lineHighlightBackground": "#23293a",
+    "editor.selectionBackground": "#3B4252",
+    "editorCursor.foreground": "#F0A500",
+    //activityBar
+    "activityBar.background": "#1B1E29",
+    "activityBar.foreground": "#06ebcc",
+    "activityBar.activeBackground": "#1B1E29",
+    "activityBar.activeBorder": "#06ebcc",
+    "activityBar.inactiveForeground": "#a5a4a4",
+    "activityBar.border": "#131927",
+    //sideBar
+    "sideBar.background": "#1B1E29",
+    "sideBarSectionHeader.background": "#1B1E29",
+    //Background
+    "minimap.background": "#141422",
+    "tab.activeBackground": "#1F2232",
+    "tab.activeForeground": "#06ebcc",
+    "tab.inactiveBackground": "#1F2232",
+    "tab.inactiveForeground": "#ddd",
+    //statusBar
+    "statusBar.background": "#1B1E29",
+    "statusBar.foreground": "#ddd",
+    //titleBar
+    "titleBar.activeBackground": "#1B1E29",
+    "titleBar.activeForeground": "#ddd",
+    "titleBar.inactiveBackground": "#1B1E29",
+    "titleBar.inactiveForeground": "#6A737D",
+    //scrollBar
+    "scrollbarSlider.background": "#151B23",
+    "scrollbarSlider.hoverBackground": "#0D1117",
+    //terminal customization
+    "terminal.border": "#2c2c54",
+    "terminal.foreground": "#E7F9EF",
+    "terminalCursor.background": "#151B23",
+    "terminalCursor.foreground": "#ff4d4d",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    //Panel title
+    "panelTitle.activeForeground": "#06ebcc",
+    "panelTitle.inactiveForeground": "#ddd",
+    "panel.background": "#1C2333",
+    "panel.border": "#0E1525",
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "tabnine.experimentalAutoImports": true,
+  "notebook.lineNumbers": "on",
+  "breadcrumbs.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "jupyter.interactiveWindow.textEditor.executeSelection": true
 }
